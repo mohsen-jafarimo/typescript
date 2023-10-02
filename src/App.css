@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.task {
+  display: flex;
+  padding: 10px;
+  background-color: #654fef;
+  color: white;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 7px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 2px solid blueviolet;
+  color: #654fef;
+  font-weight: bold;
+}
+form > button {
+  background-color: #202020;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 7px;
+  outline: none;
+}
